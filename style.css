@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, purple, yellow);
+}
+#formulario{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    justify-content: end;
+}
+
+#borda{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    background-color:burlywood;
+    border-radius: 20px;
+}
+
+#subtitulo{
+    text-align: center;
+    font-weight: 600;
+    background-color:cornflowerblue;
+}
+
+.input_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}
+.input_box_radio{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+#registar{
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+#registar:hover{
+    background-color: gray;
+}
+
+#creditos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    height: 50px;
+}
+#creditos_paragrafo{
+    font-weight: 600;
+}
